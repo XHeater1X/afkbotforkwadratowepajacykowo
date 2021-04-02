@@ -29,6 +29,7 @@ bot.loadPlugin(cmd)
 
 bot.on('login',function(){
 	console.log("Logged In")
+	bot.chat("Witaj na serwerze stworzonym przez Kamikosa. Kanał Kamikosa: http://bit.ly/Kamikos");
 });
 
 bot.on('time', function(time) {
